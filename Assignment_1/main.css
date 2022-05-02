@@ -157,7 +157,7 @@ section#banner {
   background-position: 47% 50%;
 }
 
-#about {
+#aboutcontainer {
   position: relative;
   margin: 0 auto;
   padding: 120px 0;
@@ -166,7 +166,7 @@ section#banner {
 
 }
 
-#about:before {
+#aboutcontainer:before {
   content: '';
   background-image: url(./svg/vector1.svg);
   background-size: cover;
@@ -180,7 +180,7 @@ section#banner {
   z-index: -1;
 }
 
-#about a {
+#aboutcontainer a {
   font-family: 'Lato';
   color: #a55e3f;
   font-weight: 12;
